@@ -10,7 +10,7 @@
 #SBATCH --error=04_re_mafft_err/04_re_mafft_%A_%a.err
 #SBATCH --array=1-104
 #SBATCH --cpus-per-task=4
-#SBATCH --mem=8G
+#SBATCH --mem=80G
 
 # Load modules
 module load miniconda3
