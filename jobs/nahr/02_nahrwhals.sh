@@ -17,6 +17,9 @@ module load r
 module load miniconda3
 conda activate nahrwhals
 
+## To create .bed for whole ref haplotype, this command was previously run
+# cut -f1,2 reordered.ref.fasta.fai | awk '{print $1"\t0\t"$2}' > all_regions.bed
+
 # Base directory containing species subfolders
 BASE_DIR="/hb/home/snbogan/PolarFish/RE_AFP/nahr/phased_genomes"
 
